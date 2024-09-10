@@ -103,7 +103,7 @@ html_code = """
 
 # Streamlit app code
 def main():
-    st.title("Streamlit Login Page")
+    st.title("Login Page")
     st.markdown(html_code, unsafe_allow_html=True)
 
 if __name__ == "__main__":
